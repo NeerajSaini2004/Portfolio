@@ -1,0 +1,25 @@
+.coding-section{background:#0b0d0f}
+.coding-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;gap:15px}
+.coding-card{display:flex;flex-direction:column;min-width:0;border:1px solid #2b332e;border-radius:9px;background:linear-gradient(150deg,#141918,#101313);padding:23px 22px 19px;transition:transform .22s,border-color .22s}
+.coding-card:hover{transform:translateY(-4px);border-color:#52634a}
+.coding-card-top{display:flex;align-items:center;justify-content:space-between}
+.coding-mark{display:grid;place-items:center;width:39px;height:39px;border-radius:9px;border:1px solid #46543d;background:#202a1b;color:var(--accent);font:700 13px var(--display)}
+.coding-card-lc .coding-mark{background:#2a2419;border-color:#55462c;color:#e4bb78}
+.coding-card-cc .coding-mark{background:#211d23;border-color:#493b4c;color:#cea9d6}
+.coding-index{font:8px var(--mono);letter-spacing:.1em;color:#69756c}
+.coding-card h3{font:600 19px var(--display);letter-spacing:-.03em;margin:20px 0 4px}
+.coding-subtitle{color:#859087;font-size:10px;margin:0 0 17px}
+.coding-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-bottom:19px}
+.coding-stat{min-height:52px;border:1px solid #29312c;background:#111615;border-radius:5px;padding:9px 10px;display:flex;flex-direction:column;justify-content:center}
+.coding-stat strong{font:600 15px var(--display);letter-spacing:-.02em;color:#e5ebe2}
+.coding-stat span{font-size:8px;color:#7d8980;margin-top:3px}
+.coding-card-gfg .coding-stats{grid-template-columns:1fr}
+.coding-card-gfg .coding-stat{min-height:100px;padding:15px}
+.coding-card-gfg .coding-stat strong{font-size:32px;color:var(--accent)}
+.coding-link{display:flex;align-items:center;gap:8px;border-top:1px solid #29312c;padding-top:15px;margin-top:auto;color:#c9d6c2;font-size:10px}
+.coding-link>svg:first-of-type{color:var(--accent)}
+.coding-arrow{margin-left:auto;color:#778278;transition:transform .2s}
+.coding-link:hover{color:var(--accent)}
+.coding-link:hover .coding-arrow{transform:translate(2px,-2px)}
+@media(max-width:900px){.coding-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.coding-grid{grid-template-columns:1fr}.coding-card{padding:20px}.coding-card-gfg .coding-stat{min-height:75px}}
