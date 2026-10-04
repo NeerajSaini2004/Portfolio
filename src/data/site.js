@@ -20,7 +20,7 @@ export const projects = [
     description: 'A web-based placement portal built to streamline student-recruiter interaction and campus hiring.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
     features: ['Student profiles and job postings', 'Company dashboards and application tracking', 'Admin workflows for shortlisting and reports'],
-    visual: 'portal', live: '', github: '',
+    visual: 'portal', live: 'https://placementportal-qsiv.onrender.com/', github: 'https://github.com/NeerajSaini2004/PlacementPortal',
   },
   {
     number: '03', title: 'Learning Management System', subtitle: 'Learning, organized',
@@ -41,7 +41,7 @@ export const projects = [
     description: 'An approachable place to build English skills through vocabulary, grammar and thoughtfully organized learning resources.',
     tags: ['React', 'JavaScript', 'Node.js', 'MongoDB'],
     features: ['Vocabulary and grammar learning', 'Curated learning resources', 'Responsive, user-friendly interface'],
-    visual: 'english', live: '', github: '',
+    visual: 'english', live: 'https://every-day-better.onrender.com/', github: 'https://github.com/NeerajSaini2004/Every-Day-Better',
   },
 ]
 
