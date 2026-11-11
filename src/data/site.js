@@ -4,7 +4,7 @@ export const profile = {
   phone: '+91 9783600140',
   github: 'https://github.com/NeerajSaini2004',
   linkedin: 'https://www.linkedin.com/in/NeerajSaini19',
-  resume: `${import.meta.env.BASE_URL}resume.pdf`,
+  resume: `${import.meta.env.BASE_URL}Neeraj_Saini_Resume_.pdf`,
 }
 
 export const projects = [
