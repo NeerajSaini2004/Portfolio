@@ -43,6 +43,23 @@ export const projects = [
     features: ['Vocabulary and grammar learning', 'Curated learning resources', 'Responsive, user-friendly interface'],
     visual: 'english', live: 'https://every-day-better.onrender.com/', github: 'https://github.com/NeerajSaini2004/Every-Day-Better',
   },
+  
+      {
+    number: '06', 
+    title: 'StudySeat (FocusDesk)', 
+    subtitle: 'Smart Library Seat Reservation Platform',
+    description: 'A full-stack web application designed for students to discover nearby study libraries, check real-time seat availability, and book desks seamlessly with dedicated dashboards for owners and admins.',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
+    features: [
+      'Interactive visual seating layout & real-time seat status',
+      'Role-based portals (Student Dashboard, Library Owner Panel & Admin)',
+      'Automated slot expiration engine & flexible hourly/monthly booking passes'
+    ],
+    visual: 'studyseat', 
+    live: 'https://studyseat-frontend.onrender.com/', 
+    github: 'https://github.com/NeerajSaini2004/StudySeat',
+  
+  },
 ]
 
 export const skills = {
