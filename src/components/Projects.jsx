@@ -1,8 +1,8 @@
 import { motion, useReducedMotion } from 'framer-motion'
-import { ArrowUpRight, Github, ExternalLink, ShoppingBag, BookOpen, BriefcaseBusiness, Activity, Languages } from 'lucide-react'
+import { ArrowUpRight, Github, ExternalLink, ShoppingBag, BookOpen, BriefcaseBusiness, Activity, Languages,Armchair } from 'lucide-react'
 import SectionHeading from './SectionHeading'
 import { projects } from '../data/site'
-const icons = { market: ShoppingBag, learning: BookOpen, portal: BriefcaseBusiness, bandwidth: Activity, english: Languages }
+const icons = { market: ShoppingBag, learning: BookOpen, portal: BriefcaseBusiness, bandwidth: Activity, english: Languages,studyseat: Armchair }
 function ProjectVisual({ type, title }) {
   const Icon = icons[type]
   return <div className={`project-visual visual-${type}`} aria-label={`${title} illustrative interface concept`}>
